@@ -170,7 +170,7 @@ body{
     }
 }
 
-@media (max-width: 730px){
+@media (max-width: 830px){
     .attribution{
         font-size: 23px;
     }
@@ -200,7 +200,7 @@ body{
     }
 }
 
-@media(max-width: 610px){
+@media(max-width: 720px){
     .attribution{
         font-size: 20px;
     }
@@ -241,7 +241,7 @@ body{
     }
 }
 
-@media(max-width: 510px){
+@media(max-width: 620px){
     .card{
         border-radius: 20px;
         width: 300px;
@@ -278,7 +278,7 @@ body{
     }
 }
 
-@media(max-width:420px){
+@media(max-width:500px){
     .attribution{
         font-size: 15px;
     }
