@@ -1,0 +1,1 @@
+document.getElementById("numberselected").innerText = "You selected " + localStorage.getItem("valor") + " out of 5"

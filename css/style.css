@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.attribution { 
+    margin-top: 10px;
+    color: #fff;
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    text-decoration: none;
+    color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:hover{
+    text-decoration: underline;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+
+#alerta{
+    font-family: 'Overpass', sans-serif;
+    color :hsl(25, 97%, 53%);
+    margin: 10px;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border-radius: 20px;
+    width: 400px;
+    height: 380px;
+    background-color: #212832;
+}
+
+.star{
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: #262E39;
+}
+
+.star-icon{
+    width: 15px;
+    margin: 12.5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.textos{
+    margin-left: 20px;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 10px;
+    color:#fff;
+}
+
+.sub-title{
+    line-height: 25px;
+    width: 350px;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px;
+    color:#fff;
+    opacity: 30%;
+}
+
+.numbers{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    color:#fff;
+    display: flex;
+}
+
+.number1, .number2, .number3, .number4, .number5{
+    color:#fff;
+    transition: 0.7s;
+    background-color: #262E39;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border:none;
+}
+
+.n1, .n2, .n3, .n4, .n5{
+    opacity: 50%;
+    width: 15px;
+    margin: 15px;
+}
+
+.n1{
+    margin-left: 19px;
+}
+
+.n2, .n4, .n5{
+    margin-left: 18px;
+}
+
+.n3{
+    margin-left: 19px;
+}
+
+.number1:hover, .number2:hover, .number3:hover, .number4:hover, .number5:hover{
+    background-color: hsl(25, 97%, 53%) ;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.botao{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btn{
+    font-size: 17px;
+    font-weight: 700px;
+    transition: 0.7s;
+    width: 320px;
+    height: 35px;
+    font-family: 'Overpass', sans-serif;
+    color:rgba(255, 255, 255, 0.637);
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media(min-width: 1000px){
+
+    .attribution{
+        font-size:20px;
+    }
+
+    .container{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
+    
+    #alerta{
+        font-size: 25px;
+    }
+    
+    .card{
+        padding: 15px;
+        width: 550px;
+        height: 600px;
+    }
+    
+    .star{
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+        margin-left: 5px;
+        margin-top: 7px;  
+    }
+
+    .star-icon{
+        width: 35px;
+        margin: 22.5px;
+    }
+    
+    .textos{
+        margin-left: -5px;
+        justify-content: center;
+        align-items: left;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title{
+        font-size: 60px;
+    }
+    
+    .sub-title{
+        line-height: 50px;
+        font-size: 20px;
+        width: 470px;
+    }
+    
+    .number1, .number2, .number3, .number4, .number5{
+        font-size: 30px;
+        align-items: center;
+        width: 90px;
+        height: 90px;
+        margin: 10px;
+    }
+    
+    .n1, .n2, .n3, .n4, .n5{
+        margin-left: 36px;
+        margin-top: 20px
+    }
+
+    .btn{
+        font-size: 30px;
+        width: 500px;
+        height: 70px;
+    }
+    
+    }
+
+@media(max-width: 425px){
+
+.container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+#alerta{
+    width: 300px;
+}
+
+.card{
+    padding: 15px;
+    width: 300px;
+    height: 350px;
+}
+
+.star{
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    margin-left: 5px;
+    margin-top: 7px;  
+}
+
+.textos{
+    margin-left: -5px;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.sub-title{
+    width: 300px;
+}
+
+.number1, .number2, .number3, .number4, .number5{
+    align-items: center;
+    width: 43px;
+    height: 43px;
+    margin: 10px;
+}
+
+.n1, .n2, .n3, .n4, .n5{
+    margin-left: 15px;
+    margin-top: 13px
+}
+
+}
