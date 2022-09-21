@@ -6,7 +6,6 @@
 }
 
 .attribution { 
-    margin-top: 10px;
     color: #fff;
     font-size: 11px; text-align: center; 
 }
@@ -98,40 +97,7 @@ body{
 .sub-title-mobile{
     display: none;
 }
-
 @media (max-width: 2117px){
-    .attribution{
-        font-size: 30px;
-    }
-
-    .card{
-        border-radius: 20px;
-        width: 700px;
-        height: 780px;
-    }
-
-    .celular-icon{
-        width: 400px;
-    }
-    
-    .numero-selecionado{
-        font-size: 20px;
-        height: 70px;
-        width: 500px;
-        border-radius: 30px;
-    }
-
-    .title{
-        font-size: 70px;
-    }
-
-    .sub-title{
-        font-size: 30px;
-        line-height: 50px;
-    }
-}
-
-@media (max-width: 1097px){
     .attribution{
         font-size: 25px;
     }
